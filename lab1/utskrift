@@ -1,0 +1,38 @@
+Script started on Tue May 27 17:55:15 2014
+[haraldv@avril lab1]$ gcc -Wall -o digenv.o digenv.c
+[haraldv@avril lab1]$ ./digenv.o
+[?1049h[?1h=
+CVS_RSH=ssh
+EDITOR=emacs
+EMAIL=haraldv@kth.se
+GCONF_LOCAL_LOCKS=1
+G_BROKEN_FILENAMES=1
+HISTSIZE=1000
+HOME=/afs/ict.kth.se/home/h/a/haraldv
+HOSTNAME=avril.it.kth.se
+INFOPATH=/usr/share/info
+INPUTRC=/etc/inputrc
+KDEDIR=/usr
+KDE_IS_PRELINKED=1
+KDE_NO_IPV6=1
+KRB5CCNAME=FILE:/tmp/krb5cc_1014210_URiZlX
+LANG=en_GB.ISO-8859-15
+LC_CTYPE=UTF-8
+LESSOPEN=|/usr/bin/lesspipe.sh %s
+LOADEDMODULES=Default:fvwm2-local/current:matlab/7.4.0:maple/10.05:comsol/3.4
+LOGNAME=haraldv
+MAIL=/var/spool/mail/haraldv
+MAILHOST=mail1.kth.se
+MANPATH=/usr/local/vol/matlab/7.4.0/man:/usr/kerberos/man:/usr/local/share/man:/ usr/share/man/en:/usr/share/man:/usr/man
+:[K
+[K[?1l>[?1049l[haraldv@avril lab1]$ ./digenv.o PATH
+[?1049h[?1h=
+INFOPATH=/usr/share/info
+MANPATH=/usr/local/vol/matlab/7.4.0/man:/usr/kerberos/man:/usr/local/share/man:/ usr/share/man/en:/usr/share/man:/usr/man
+MODULEPATH=/usr/local/vol/modulefiles:/pkg/modules/modulefiles:/etc/site/modulef iles:/usr/share/Modules/modulefiles:/etc/modulefiles
+PATH=/usr/lib/heimdal/bin:/usr/local/vol/comsol/3.4/bin:/usr/local/vol/maple/10. 05/bin:/usr/local/vol/matlab/7.4.0/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/us r/bin:/opt/real/RealPlayer
+WMMENUPATH=/usr/local/vol/maple/menudef/10.05:/usr/local/vol/fvwm2/menudefs/emac s:/usr/local/vol/fvwm2/menudefs/acroread
+[7m(END) [27m[K
+[K[?1l>[?1049l[haraldv@avril lab1]$ exit
+
+Script done on Tue May 27 17:55:51 2014
