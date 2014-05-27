@@ -1,0 +1,46 @@
+Script started on Tue May 27 22:37:51 2014
+[haraldv@avril lab2]$ gcc -Wall -o smallshell.o smallshell.c
+[haraldv@avril lab2]$ ./smallshell.o 
+
+
+*** Välkommen till vår egna kommandotolk ***
+******* För att avlsuta skriv 'exit' *******
+
+ /afs/ict.kth.se/home/h/a/haraldv/os/lab2 >> pwd
+Förgrundsprocess startad med process ID: 3223
+/afs/ict.kth.se/home/h/a/haraldv/os/lab2
+Förgrundsprocess 3223 avslutad 
+Tid för process: 1.407000 ms
+ /afs/ict.kth.se/home/h/a/haraldv/os/lab2 >> pwd&
+Bakgrundsprocess startad med process ID: 3224
+
+ /afs/ict.kth.se/home/h/a/haraldv/os/lab2 >> /afs/ict.kth.se/home/h/a/haraldv/os/lab2
+ls
+Bakgrundsprocess 3224 avslutad
+Förgrundsprocess startad med process ID: 3225
+lab2  smallshell.c  smallshell.o
+Förgrundsprocess 3225 avslutad 
+Tid för process: 2.310000 ms
+ /afs/ict.kth.se/home/h/a/haraldv/os/lab2 >> cd
+
+ /afs/ict.kth.se/home/h/a/haraldv >> cd os
+
+ /afs/ict.kth.se/home/h/a/haraldv/os >> ls -l
+Förgrundsprocess startad med process ID: 3505
+total 6
+drwxr-xr-x 2 haraldv users2 2048 May 27 22:27 lab1
+drwxr-xr-x 2 haraldv users2 2048 May 27 22:38 lab2
+drwxr-xr-x 3 haraldv users2 2048 May 27 14:15 lab3
+Förgrundsprocess 3505 avslutad 
+Tid för process: 15.912000 ms
+ /afs/ict.kth.se/home/h/a/haraldv/os >> pwd
+Förgrundsprocess startad med process ID: 3506
+/afs/ict.kth.se/home/h/a/haraldv/os
+Förgrundsprocess 3506 avslutad 
+Tid för process: 1.150000 ms
+ /afs/ict.kth.se/home/h/a/haraldv/os >> exit
+Stänger ner kommandotolken..
+[haraldv@avril lab2]$ exit
+exit
+
+Script done on Tue May 27 22:38:54 2014
