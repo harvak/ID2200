@@ -1,3 +1,14 @@
+/* 
+KTH kursID: ID2200 - Operativsystem
+Labb 2 - Pipelines
+
+Skrivet av: 
+Harald Vaksdal, haraldv@kth.se
+Erik Bäck, erback@kth.se
+(2104)
+
+Det här programmet skapar en egen kommandotolk
+*/
 #include <sys/wait.h>
 #include <sys/types.h>
 #include <signal.h>
